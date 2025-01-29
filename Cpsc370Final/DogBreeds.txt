@@ -1,0 +1,10 @@
+1, Pit Bull
+2, Rottweiler
+3, Dachshund
+4, Beagle
+5, Poodle
+6, Labrador 
+7, French Bulldog
+8, German Shepherd
+9, Golden Retriever
+10, Corgi
