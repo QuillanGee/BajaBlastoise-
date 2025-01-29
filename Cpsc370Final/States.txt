@@ -1,0 +1,10 @@
+1, Alabama
+2, Florida
+3, New Jersey
+4, Wyoming
+5, Idaho
+6, Texas
+7, Washington
+8, Ohio
+9, California
+10, Oregon

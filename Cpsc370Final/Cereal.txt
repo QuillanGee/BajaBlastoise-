@@ -1,0 +1,10 @@
+1, Raisin Bran
+2, Corn Flakes
+3, Reeses-Puffs
+4, Frosted Mini-Wheats
+5, Lucky Charms
+6, Honey Bunches of Oats
+7, Froot Loops
+8, Cinnamon Toast Crunch
+9, Frosted Flakes
+10, Honey Nut Cheerios
