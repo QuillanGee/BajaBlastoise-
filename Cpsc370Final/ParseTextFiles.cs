@@ -15,22 +15,16 @@ public static class ParseTextFiles
 
     public static void IntializeDictionaries()
     {
-        
-        ShoeBrand = ParseTextFile("test1.txt");
-        foreach (var kvp in ShoeBrand)
-        {
-            Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
-        }
-        
-        // Drink = ParseTextFile("text.txt");
-        // FastFoodChain = ParseTextFile("text.txt");
-        // Fingers = ParseTextFile("text.txt");
-        // DogBreeds = ParseTextFile("text.txt");
-        // Race = ParseTextFile("text.txt");
-        // States = ParseTextFile("text.txt");
-        // Letters = ParseTextFile("text.txt");
-        // IcecreamFlavor = ParseTextFile("text.txt");
-        // Cereal = ParseTextFile("text.txt");
+        ShoeBrand = ParseTextFile("ShoeBrand.txt");
+        Drink = ParseTextFile("Drinks.txt");
+        FastFoodChain = ParseTextFile("Fast.txt");
+        Fingers = ParseTextFile("Fingers.txt");
+        DogBreeds = ParseTextFile("DogBreeds.txt");
+        Race = ParseTextFile("Race.txt");
+        States = ParseTextFile("States.txt");
+        Letters = ParseTextFile("Letters.txt");
+        IcecreamFlavor = ParseTextFile("IcecreamFlavors.txt");
+        Cereal = ParseTextFile("Cereal.txt");
     }
     
     private static Dictionary<int, string> ParseTextFile(string textFile)
