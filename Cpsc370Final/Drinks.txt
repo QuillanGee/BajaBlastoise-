@@ -1,7 +1,7 @@
 1, Sparkling water
-2, Soda
+2, Liquor
 3, Beer
-4, Liquor
+4, Soda
 5, Wine
 6, Smoothie
 7, Juice

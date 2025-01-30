@@ -1,0 +1,10 @@
+1, White Castle
+2, Sonic
+3, Burger King
+4, Arby's
+5, Popeyes
+6, Wendy's
+7, Chipotle
+8, Raising Canes
+9, McDonalds
+10, In-N-Out
