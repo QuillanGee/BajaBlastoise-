@@ -1,0 +1,10 @@
+1, Left Pinky
+2, Right Ring Finger
+3, Left Middle Finger
+4, Right Pinky
+5, Left Thumb
+6, Right Middle Finger
+7, Left Index
+8, Left Ring Finger
+9, Right Index Finger
+10, Right Thumb

@@ -1,0 +1,10 @@
+1, 3200 meter
+2, 3200 relay
+3, 800 meter
+4, 1600 relay
+5, hurdles
+6, 200 meter
+7, 400 meter
+8, 100 meter
+9, 50 meter
+10, 1600 meter
