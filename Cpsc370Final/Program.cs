@@ -170,7 +170,27 @@ class Program
 
     private static void GiveClue(int category, int secretNumber)
     {
-        //TODO: implement parsing script to read txt file and return the corresponding number
-        Console.WriteLine("\nClues haven't been made yet \n");
+        ParseTextFiles.IntializeDictionaries();
+
+        // Get the clue based on the category and secret number
+        string clue = GetClue(category, secretNumber);
+
+        if (!string.IsNullOrEmpty(clue))
+        {
+            Console.WriteLine("\nClue: " + clue + "\n");
+        }
+        else
+        {
+            Console.WriteLine("\nNo clue found for the selected category and number.\n");
+        }
     }
+    private static string GetClue(int category, int secretNumber)
+    {
+        string categoryName =(Enum.GetName(typeof(Categories), category));
+        var PTF = ParseTextFiles.ParseTextFile(categoryName + ".txt");
+
+        return PTF[secretNumber];
+    }
+
+
 }
