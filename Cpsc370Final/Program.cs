@@ -10,6 +10,7 @@ class Program
         // you can delete this if/when you like
         ShowArguments(args);
 
+        DisplayInstructions();
         GameLoop();
 
     }
@@ -192,5 +193,8 @@ class Program
         return PTF[secretNumber];
     }
 
-
+    private static void DisplayInstructions()
+    {
+        Console.WriteLine("Welcome to The Number Guessing Game! \nI am thinking of a secret number 1-10. 1 is the worst and 10 is the best. You will choose categories to get clues about what number it could be.");
+    }
 }
