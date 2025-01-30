@@ -3,28 +3,28 @@ namespace Cpsc370Final;
 public static class ParseTextFiles
 {
     public static Dictionary<int, string> ShoeBrand;
-    public static Dictionary<int, string> Drink;
-    public static Dictionary<int, string> FastFoodChain;
+    public static Dictionary<int, string> Drinks;
+    public static Dictionary<int, string> FastFoodChains;
     public static Dictionary<int, string> Fingers;
     public static Dictionary<int, string> DogBreeds;
-    public static Dictionary<int, string> Race;
+    public static Dictionary<int, string> Races;
     public static Dictionary<int, string> States;
     public static Dictionary<int, string> Letters;
-    public static Dictionary<int, string> IcecreamFlavor;
-    public static Dictionary<int, string> Cereal;
+    public static Dictionary<int, string> IceCreamFlavors;
+    public static Dictionary<int, string> Cereals;
 
     public static void IntializeDictionaries()
     {
-        ShoeBrand = ParseTextFile("ShoeBrand.txt");
-        Drink = ParseTextFile("Drinks.txt");
-        FastFoodChain = ParseTextFile("Fast.txt");
+        ShoeBrand = ParseTextFile("ShoeBrands.txt");
+        Drinks = ParseTextFile("Drinks.txt");
+        FastFoodChains = ParseTextFile("FastFoodChains.txt");
         Fingers = ParseTextFile("Fingers.txt");
         DogBreeds = ParseTextFile("DogBreeds.txt");
-        Race = ParseTextFile("Race.txt");
+        Races = ParseTextFile("Races.txt");
         States = ParseTextFile("States.txt");
         Letters = ParseTextFile("Letters.txt");
-        IcecreamFlavor = ParseTextFile("IcecreamFlavors.txt");
-        Cereal = ParseTextFile("Cereal.txt");
+        IceCreamFlavors = ParseTextFile("IceCreamFlavors.txt");
+        Cereals = ParseTextFile("Cereals.txt");
     }
     
     public static Dictionary<int, string> ParseTextFile(string textFile)
