@@ -36,6 +36,26 @@
       <Content Include="States.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+      <None Remove="Cereals.txt" />
+      <Content Include="Cereals.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="FastFoodChains.txt" />
+      <Content Include="FastFoodChains.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Races.txt" />
+      <Content Include="Races.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="ShoeBrands.txt" />
+      <Content Include="ShoeBrands.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="IceCreamFlavors.txt" />
+      <Content Include="IceCreamFlavors.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>

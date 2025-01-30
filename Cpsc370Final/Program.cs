@@ -170,7 +170,7 @@ class Program
 
     private static void GiveClue(int category, int secretNumber)
     {
-        ParseTextFiles.IntializeDictionaries();
+       // ParseTextFiles.IntializeDictionaries();
 
         // Get the clue based on the category and secret number
         string clue = GetClue(category, secretNumber);
