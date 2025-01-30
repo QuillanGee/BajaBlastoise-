@@ -1,0 +1,10 @@
+1, Sparkling water
+2, Soda
+3, Beer
+4, Liquor
+5, Wine
+6, Smoothie
+7, Juice
+8, Coffee
+9, Tea
+10, Water
