@@ -27,7 +27,7 @@ public static class ParseTextFiles
         Cereal = ParseTextFile("Cereal.txt");
     }
     
-    private static Dictionary<int, string> ParseTextFile(string textFile)
+    public static Dictionary<int, string> ParseTextFile(string textFile)
     {
         Dictionary<int,string> dict = new Dictionary<int, string>();
         

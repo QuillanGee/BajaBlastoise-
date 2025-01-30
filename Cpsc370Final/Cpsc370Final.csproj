@@ -13,9 +13,6 @@
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <None Remove="Cereal.txt" />
-      <Content Include="Cereal.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
       <None Remove="DogBreeds.txt" />
       <Content Include="DogBreeds.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -29,21 +26,12 @@
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <None Remove="IcecreamFlavor.txt" />
-      <Content Include="IcecreamFlavor.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
       <None Remove="Letters.txt" />
       <Content Include="Letters.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <None Remove="Race.txt" />
-      <Content Include="Race.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
       <None Remove="ShoeBrand.txt" />
-      <Content Include="ShoeBrand.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
       <None Remove="States.txt" />
       <Content Include="States.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
