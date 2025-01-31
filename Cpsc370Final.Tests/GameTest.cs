@@ -3,17 +3,28 @@ namespace Cpsc370Final.Tests;
 public class GameTest
 {
     [Fact]
-    public void Test1()
-    {
-        
-    }
-
-    [Fact]
     public void IsNumber()
     {
         Game game = new Game();
         int result = game.GenerateSecretNumber();
         Assert.InRange(result, 1, 10);
+    }
+
+    [Fact]
+    public void IsValidGuessesInitialized()
+    {
+        Game game = new Game();
+        int categoriesCount = (int)GameValues.categories;
+        
+        List<int> validatedGuesses = game.InitializeValidGuesses();
+        
+        Assert.NotNull(validatedGuesses);
+        Assert.Equal(categoriesCount, validatedGuesses.Count);
+
+        for (int i = 0; i < validatedGuesses.Count; i++)
+        {
+            Assert.Contains(1, validatedGuesses);
+        }
     }
 
     [Fact]
@@ -48,6 +59,30 @@ public class GameTest
         bool result = game.ContinuePlayingOrQuit(choice);
         
         Assert.False(result);
+    }
+
+    [Fact]
+    public void IsGameOverWinningTest()
+    {
+        Game game = new Game();
+        int choice = 3;
+        int secretNumber = 3;
+        
+        bool gameResults = game.HandleEndGame(choice, secretNumber);
+        
+        Assert.True(gameResults);
+    }
+
+    [Fact]
+    public void IsGameOverLosingTest()
+    {
+        Game game = new Game();
+        int choice = 4;
+        int secretNumber = 3;
+        
+        bool gameResults = game.HandleEndGame(choice, secretNumber);
+        
+        Assert.False(gameResults);
     }
 
 }
